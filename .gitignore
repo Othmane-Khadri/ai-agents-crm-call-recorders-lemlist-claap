@@ -1,0 +1,6 @@
+.env
+.env.*
+*.local.json
+.claude/settings.local.json
+reports/
+.DS_Store

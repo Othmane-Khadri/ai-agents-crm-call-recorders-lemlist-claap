@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lemlist": {
+      "type": "http",
+      "url": "https://app.lemlist.com/mcp"
+    },
+    "claap": {
+      "type": "http",
+      "url": "https://api.claap.io/mcp"
+    }
+  }
+}
