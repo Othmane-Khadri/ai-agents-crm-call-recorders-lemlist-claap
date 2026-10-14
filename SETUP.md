@@ -21,6 +21,8 @@ The repo ships a `.mcp.json` that declares both servers:
 
 Claude Code asks whether to trust the project's MCP servers. Say yes to both.
 
+**Already connected lemlist or Claap on claude.ai?** If you are logged in to Claude Code with the same account, those connectors show up in Claude Code too (as `claude_ai_Lemlist` / `claude_ai_Claap` in `/mcp`). Use them and decline the repo's copy of that server, so you don't have two of each. The skills work with either.
+
 ## Step 3 — Log in to both (OAuth, no API key)
 1. Make sure you are logged in to [app.lemlist.com](https://app.lemlist.com) and [app.claap.io](https://app.claap.io) in your browser.
 2. In Claude Code, type `/mcp`.
@@ -28,14 +30,20 @@ Claude Code asks whether to trust the project's MCP servers. Say yes to both.
 4. Select **claap** → Authenticate. Approve in the browser.
 5. Run `/mcp` again. Both should show `connected`.
 
+A server that shows `needs authentication` is invisible to Claude until you finish this step, even if you connected it elsewhere. If you just authorised it, start a new Claude Code session so the tools load.
+
 ## Step 4 — Run the setup skill
 In Claude Code, say:
 > set up the playbook
 
 It will:
 1. confirm both servers answer and pick your Claap workspace (it asks if you have several)
-2. take your most-replied campaign and check how many replied leads it can find in Claap. **This number is the whole game.** If it is close to zero, the skills have nothing to join.
+2. take your most-replied campaign and check how many replied leads it can find in Claap. **This number is the whole game.** You get one of 4 verdicts: *Ready*, *Plumbing works, no results yet* (nothing sent yet), *Calls not linked to campaigns*, or *Not found*.
 3. interview you for your ICP and write `docs/icp.md`
+
+**Two things that make the results better:**
+- Load job title, company size and industry on your lemlist leads (`jobTitle`, `companySize`, `companyIndustry`). Skills 1 and 3 score on them. Without them, leads are scored `unknown`, never guessed.
+- Connect HubSpot to Claap if you can. Skill 3 then finds your won deals itself; without it, it asks you.
 
 ## Step 5 — Run the 5 things
 | Say | What runs |
