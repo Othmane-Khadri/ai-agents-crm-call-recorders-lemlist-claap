@@ -6,8 +6,8 @@ Using another sequencer or call recorder? Read [ADAPTING.md](ADAPTING.md) first.
 
 ## Step 1: Get the repo
 ```bash
-git clone https://github.com/Othmane-Khadri/lemlist-claap-playbook.git
-cd lemlist-claap-playbook
+git clone https://github.com/Othmane-Khadri/ai-agents-crm-call-recorders-lemlist-claap.git
+cd ai-agents-crm-call-recorders-lemlist-claap
 ```
 
 ## Step 2: Connect both tools (pick one way)

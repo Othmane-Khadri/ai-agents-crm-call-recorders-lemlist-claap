@@ -1,8 +1,10 @@
-# lemlist x Claap: 5 things I run on top of them
+# AI agents for your CRM and call recorder
 
-lemlist knows what you sent. Claap knows how the call went. They have never spoken to each other, so everybody optimises reply rate and nobody optimises the conversation that follows.
+**5 Claude Code skills that join your outbound tool and your call recorder: lemlist x Claap out of the box, any CRM, sequencer or call recorder with [ADAPTING.md](ADAPTING.md).**
 
-These 5 Claude Code skills join the two.
+Your sequencer knows what you sent. Your call recorder knows how the call went. They have never spoken to each other, so everybody optimises reply rate and nobody optimises the conversation that follows.
+
+These 5 AI agents join the two, starting with lemlist and Claap.
 
 | # | Skill | What it answers |
 |---|---|---|
