@@ -4,3 +4,6 @@
 .claude/settings.local.json
 reports/
 .DS_Store
+docs/icp.md
+docs/connection.md
+data/

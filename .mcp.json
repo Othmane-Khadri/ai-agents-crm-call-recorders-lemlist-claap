@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "lemlist": {
+    "lem": {
       "type": "http",
       "url": "https://app.lemlist.com/mcp"
     },
