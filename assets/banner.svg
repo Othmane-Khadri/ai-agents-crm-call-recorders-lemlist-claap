@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="AI agents for your CRM and call recorder. 5 Claude Code skills that join what you sent with how the call went. lemlist x Claap.">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#1C2230"/>
+      <stop offset="1" stop-color="#0D0F13"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CE0B5"/>
+      <stop offset="1" stop-color="#8BB4FF"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .eyebrow { font-size: 16px; font-weight: 600; letter-spacing: 3px; fill: #8A93A3; }
+      .h1 { font-size: 58px; font-weight: 700; fill: #F4F5F7; letter-spacing: -1px; }
+      .sub { font-size: 23px; fill: #A9B0BC; }
+      .chip { font-size: 20px; font-weight: 600; fill: #F4F5F7; }
+      .muted { font-size: 18px; fill: #8A93A3; }
+      .card-title { font-size: 15px; font-weight: 600; letter-spacing: 1.5px; fill: #8A93A3; }
+      .row { font-size: 16px; fill: #D9DDE3; }
+      .val { font-size: 16px; font-weight: 700; fill: #F4F5F7; }
+      .foot { font-size: 13px; fill: #6B7383; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- Left: message -->
+  <text x="80" y="150" class="eyebrow">OPEN-SOURCE CLAUDE CODE SKILLS</text>
+  <text x="80" y="232" class="h1">AI agents for your</text>
+  <text x="80" y="302" class="h1">CRM and <tspan fill="url(#accent)">call recorder</tspan></text>
+  <text x="80" y="362" class="sub">5 skills that join what you sent</text>
+  <text x="80" y="394" class="sub">with how the call went.</text>
+
+  <rect x="80" y="440" width="112" height="46" rx="23" fill="#1F2532" stroke="#2E3646"/>
+  <text x="136" y="470" class="chip" text-anchor="middle">lemlist</text>
+  <text x="214" y="471" class="muted" text-anchor="middle">×</text>
+  <rect x="236" y="440" width="100" height="46" rx="23" fill="#1F2532" stroke="#2E3646"/>
+  <text x="286" y="470" class="chip" text-anchor="middle">Claap</text>
+  <text x="358" y="469" class="muted">+ any sequencer or call recorder</text>
+
+  <!-- Right: the ranking flip -->
+  <rect x="740" y="120" width="460" height="400" rx="20" fill="#141821" stroke="#262D3A"/>
+  <text x="772" y="166" class="card-title">SAME 3 CAMPAIGNS, TWO RANKINGS</text>
+
+  <text x="772" y="208" class="foot">Ranked by reply rate</text>
+  <text x="772" y="244" class="row">Free audit offer</text>
+  <rect x="938" y="230" width="200" height="18" rx="9" fill="#F2A65A"/>
+  <text x="1150" y="245" class="val">67%</text>
+  <text x="772" y="280" class="row">SDR ramp</text>
+  <rect x="938" y="266" width="125" height="18" rx="9" fill="#3A4150"/>
+  <text x="1075" y="281" class="val">42%</text>
+  <text x="772" y="316" class="row">Q4 pipeline</text>
+  <rect x="938" y="302" width="125" height="18" rx="9" fill="#3A4150"/>
+  <text x="1075" y="317" class="val">42%</text>
+
+  <line x1="772" y1="344" x2="1168" y2="344" stroke="#262D3A"/>
+
+  <text x="772" y="378" class="foot">Ranked by good calls per 100 leads</text>
+  <text x="772" y="414" class="row">SDR ramp</text>
+  <rect x="938" y="400" width="200" height="18" rx="9" fill="#7CE0B5"/>
+  <text x="1150" y="415" class="val">25</text>
+  <text x="772" y="450" class="row">Q4 pipeline</text>
+  <rect x="938" y="436" width="136" height="18" rx="9" fill="#3A4150"/>
+  <text x="1086" y="451" class="val">17</text>
+  <text x="772" y="486" class="row">Free audit offer</text>
+  <circle cx="947" cy="481" r="9" fill="#F2A65A"/>
+  <text x="966" y="487" class="val" fill="#F2A65A">0</text>
+
+  <text x="1168" y="508" class="foot" text-anchor="end">sample data</text>
+</svg>

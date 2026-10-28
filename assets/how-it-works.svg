@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-label="How it works: your sequencer (lemlist) knows what you sent and who replied. Your call recorder (Claap) knows who was on the call and what they said. The join matches a lead to a call by email, then company domain, then date. 5 skills run on top: ICP drift, call fit, outlier check, pre-call insight, opener from calls.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7CE0B5"/>
+      <stop offset="1" stop-color="#8BB4FF"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5A6374"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .h1 { font-size: 40px; font-weight: 700; fill: #F4F5F7; letter-spacing: -0.5px; }
+      .sub { font-size: 20px; fill: #A9B0BC; }
+      .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 2.5px; fill: #8A93A3; }
+      .box-title { font-size: 26px; font-weight: 700; fill: #F4F5F7; }
+      .item { font-size: 17px; fill: #D9DDE3; }
+      .num { font-size: 15px; font-weight: 700; fill: #7CE0B5; }
+      .tile-num { font-size: 14px; font-weight: 700; letter-spacing: 1px; fill: #7CE0B5; }
+      .tile-title { font-size: 19px; font-weight: 700; fill: #F4F5F7; }
+      .tile-text { font-size: 15px; fill: #A9B0BC; }
+      .foot { font-size: 15px; fill: #6B7383; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="760" fill="#0D0F13"/>
+
+  <text x="80" y="92" class="h1">How it works</text>
+  <text x="80" y="130" class="sub">Your sequencer and your call recorder never talk to each other. The join makes them.</text>
+
+  <!-- Sequencer -->
+  <rect x="80" y="172" width="330" height="230" rx="18" fill="#141821" stroke="#262D3A"/>
+  <text x="108" y="210" class="eyebrow">SEQUENCER</text>
+  <text x="108" y="246" class="box-title">lemlist</text>
+  <text x="108" y="290" class="item">• What you sent</text>
+  <text x="108" y="322" class="item">• Who replied, and when</text>
+  <text x="108" y="354" class="item">• Who the leads are: title,</text>
+  <text x="124" y="378" class="item">size, industry</text>
+
+  <line x1="414" y1="287" x2="469" y2="287" stroke="#5A6374" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- The join -->
+  <rect x="475" y="172" width="330" height="230" rx="18" fill="#141821" stroke="url(#accent)" stroke-width="2"/>
+  <text x="503" y="210" class="eyebrow">THE JOIN</text>
+  <text x="503" y="246" class="box-title">Lead → call</text>
+  <text x="503" y="290" class="num">1</text><text x="527" y="290" class="item">Same email</text>
+  <text x="503" y="322" class="num">2</text><text x="527" y="322" class="item">Same company domain</text>
+  <text x="503" y="354" class="num">3</text><text x="527" y="354" class="item">Call after the first email,</text>
+  <text x="527" y="378" class="item">within 60 days of the reply</text>
+
+  <line x1="865" y1="287" x2="810" y2="287" stroke="#5A6374" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Call recorder -->
+  <rect x="870" y="172" width="330" height="230" rx="18" fill="#141821" stroke="#262D3A"/>
+  <text x="898" y="210" class="eyebrow">CALL RECORDER</text>
+  <text x="898" y="246" class="box-title">Claap</text>
+  <text x="898" y="290" class="item">• Who was on the call</text>
+  <text x="898" y="322" class="item">• What they said, word for word</text>
+  <text x="898" y="354" class="item">• What happened next</text>
+
+  <!-- 5 skills -->
+  <text x="80" y="462" class="eyebrow">WHAT YOU GET: 5 SKILLS</text>
+
+  <rect x="80" y="484" width="208" height="196" rx="16" fill="#141821" stroke="#262D3A"/>
+  <text x="102" y="518" class="tile-num">01</text>
+  <text x="102" y="550" class="tile-title">ICP drift</text>
+  <text x="102" y="584" class="tile-text">Who you really loaded,</text>
+  <text x="102" y="606" class="tile-text">and the import that let</text>
+  <text x="102" y="628" class="tile-text">the drift in</text>
+
+  <rect x="308" y="484" width="208" height="196" rx="16" fill="#141821" stroke="#262D3A"/>
+  <text x="330" y="518" class="tile-num">02</text>
+  <text x="330" y="550" class="tile-title">Call fit</text>
+  <text x="330" y="584" class="tile-text">Campaigns ranked by</text>
+  <text x="330" y="606" class="tile-text">good calls, not replies</text>
+
+  <rect x="536" y="484" width="208" height="196" rx="16" fill="#141821" stroke="#262D3A"/>
+  <text x="558" y="518" class="tile-num">03</text>
+  <text x="558" y="550" class="tile-title">Outlier check</text>
+  <text x="558" y="584" class="tile-text">Keep going on this list,</text>
+  <text x="558" y="606" class="tile-text">or get the next one,</text>
+  <text x="558" y="628" class="tile-text">already sized</text>
+
+  <rect x="764" y="484" width="208" height="196" rx="16" fill="#141821" stroke="#262D3A"/>
+  <text x="786" y="518" class="tile-num">04</text>
+  <text x="786" y="550" class="tile-title">Pre-call insight</text>
+  <text x="786" y="584" class="tile-text">Something useful to</text>
+  <text x="786" y="606" class="tile-text">send before the call,</text>
+  <text x="786" y="628" class="tile-text">with proof</text>
+
+  <rect x="992" y="484" width="208" height="196" rx="16" fill="#141821" stroke="#262D3A"/>
+  <text x="1014" y="518" class="tile-num">05</text>
+  <text x="1014" y="550" class="tile-title">Opener from calls</text>
+  <text x="1014" y="584" class="tile-text">Your next first line,</text>
+  <text x="1014" y="606" class="tile-text">in your buyers' words</text>
+
+  <text x="80" y="722" class="foot">Not on lemlist or Claap? The same 5 skills run on any sequencer and call recorder: see ADAPTING.md</text>
+</svg>

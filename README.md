@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="AI agents for your CRM and call recorder: 5 Claude Code skills that join what you sent with how the call went. Same 3 campaigns ranked by reply rate and by good calls per 100 leads: the free audit offer wins on replies (67%) and gets 0 good calls (sample data)." width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-skills-7CE0B5?style=flat-square" alt="Claude Code skills">
+  <img src="https://img.shields.io/badge/MCP-lemlist%20%C3%97%20Claap-8BB4FF?style=flat-square" alt="MCP: lemlist x Claap">
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square" alt="MIT license">
+</p>
+
 # AI agents for your CRM and call recorder
 
 **5 Claude Code skills that join your outbound tool and your call recorder: lemlist x Claap out of the box, any CRM, sequencer or call recorder with [ADAPTING.md](ADAPTING.md).**
@@ -5,6 +15,10 @@
 Your sequencer knows what you sent. Your call recorder knows how the call went. They have never spoken to each other, so everybody optimises reply rate and nobody optimises the conversation that follows.
 
 These 5 AI agents join the two, starting with lemlist and Claap.
+
+<p align="center">
+  <img src="assets/how-it-works.svg" alt="How it works: lemlist knows what you sent and who replied; Claap knows who was on the call and what they said; the join matches a lead to a call by email, then company domain, then date. 5 skills run on top: ICP drift, call fit, outlier check, pre-call insight, opener from calls." width="100%">
+</p>
 
 | # | Skill | What it answers |
 |---|---|---|
@@ -36,6 +50,7 @@ CLAUDE.md                 tool map, join rules, quoting rules, safety rules
 SETUP.md                  step-by-step connection guide
 ADAPTING.md               run the playbook on other tools
 .claude/skills/<name>/    one folder per skill
+assets/                   banner, diagram, social preview image
 docs/                     your ICP + connection notes (written by setup, git-ignored)
 reports/                  outputs (git-ignored)
 ```
